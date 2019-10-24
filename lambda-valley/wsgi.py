@@ -14,6 +14,6 @@ from dotenv import load_dotenv
 load_dotenv(verbose=True)
 
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lambda-valley.settings')
 
 application = get_wsgi_application()
