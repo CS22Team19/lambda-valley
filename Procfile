@@ -1,1 +1,1 @@
-web: python migrate.py migrate && gunicorn lambda-valley.wsgi --log-file -
+web: python manage.py migrate && gunicorn lambda-valley.wsgi --log-file -
