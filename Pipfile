@@ -9,6 +9,14 @@ pylint = "*"
 
 [packages]
 django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+djangorestframework-simplejwt = "*"
+python-dotenv = "*"
+gunicorn = "*"
+psycopg2 = "==2.7.5"
+django-heroku = "*"
 
 [requires]
 python_version = "3.7"
