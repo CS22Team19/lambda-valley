@@ -1,0 +1,1 @@
+web: python migrate.py migrate && gunicorn backend.wsgi --log-file -
