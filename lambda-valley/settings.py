@@ -146,7 +146,8 @@ REST_FRAMEWORK = {
 
 # Django REST Framework JWT Auth
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),
+    # TODO: - Change this back to 5min once frontend is ready for it
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
     'ROTATE_REFRESH_TOKENS': False,
     'BLACKLIST_AFTER_ROTATION': True,
